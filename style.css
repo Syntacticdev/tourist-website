@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,300;1,700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -19,7 +22,7 @@ header {
   align-items: center;
   padding: 0 20px;
   z-index: 100;
-  /* background: linear-gradient(to right, #374f5a, #6d7577); */
+  background: linear-gradient(to right, #374f5a, #6d7577);
 }
 
 nav {
@@ -226,13 +229,21 @@ footer {
     align-items: center;
   }
 
+  header nav a {
+    font-size: 10px;
+  }
+
   a.logo_text {
     font-size: 25px;
   }
 
-  header nav {
-    flex: 1;
+  .hint_1 {
+    font-size: 40px;
   }
+
+  /* header nav {
+    flex: 1;
+  } */
 
   section {
     padding: 0;
@@ -257,7 +268,6 @@ footer {
     grid-template-columns: 1fr;
     height: auto;
     flex-direction: row-reverse;
-    margin: 0;
   }
 
   .card_title {
@@ -288,9 +298,13 @@ footer {
     padding: 70px 10px 10px 10px;
   }
 
-  .logo,
-  .slang {
+  .logo {
     text-align: center;
+  }
+
+  .motto {
+    text-align: center;
+    margin: 170px 0;
   }
 
   .ft_nav {
