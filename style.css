@@ -211,6 +211,10 @@ footer {
   display: grid;
 }
 
+.ft_nav__link:hover {
+  color: yellow;
+}
+
 .nav_title_label {
   color: yellow;
   margin-bottom: 10px;
@@ -308,7 +312,7 @@ footer {
 
   .motto {
     text-align: center;
-    margin: 10px 0;
+    margin: 0px 0;
   }
 
   .ft_nav {
